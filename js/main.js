@@ -63,14 +63,15 @@ mul(8)
                     function mul(c,d=5){
                     return c*d
                     }		
-                    mul(8)
+                    console.log(mul(8))
                
              c)Default Param
              d) correct ans:
                     function mul(c,d){
                     return c*d
-                    }		
-                    mul(8,4)
+                    }
+                   let c = mul(8,4)					
+                    console.log(c)
 			
 6.let data = {name: "ES6"}
 
@@ -170,10 +171,12 @@ How to store this value in local storage?
 		Answer:
 		map() Method
 			map method is used to transform an array by applying a function to each element and creating
-			a new array with the transformed values.
+			a new array with the transformed values. 
+			return same length
 		filter() Method
 			filter method is used to extract elements from an array based on a condition and create a new array containing 
 			only the elements that satisfy that condition.
+			disturb original array of length
 			
 13.Difference between props and state. 
 
@@ -309,7 +312,7 @@ that accepts props as an argument and returns a React element(JSX).		Component a
 
 
 Example:									constructor(props) {
-										super(props);
+										                super(props);
 const [name,SetName]= useState(' ')						this.state = {name: ' '}
 																				}
 Constructors are not used.							Constructor is used as it needs to store state. 
